@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 
 
 @Entity(tableName = "fav_tbl")
-data class favorites(
+data class Favorites(
     @NonNull
     @PrimaryKey
     @ColumnInfo(name = "city")
